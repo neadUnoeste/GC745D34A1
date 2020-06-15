@@ -1026,8 +1026,6 @@ section {
         }
 
         .separador-01{
-            background: url(../images/details/section-6-2.png) transparent no-repeat center;
-            background-size: contain;
             height: initial;
             width: 100%;
             display: flex;
@@ -1124,6 +1122,7 @@ section {
             align-items: flex-end;
 
             h3{
+                background-color: transparentize(white, 0.75);
                 color: white;
             }
         }
@@ -2421,6 +2420,10 @@ footer {
                 background-color: #ee8973;
                 height: initial;
                 padding: 36px 0;
+
+                h3{
+                    background-color: transparent;
+                }
             }
         }
 
